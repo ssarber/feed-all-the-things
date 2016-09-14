@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1C25451D7B865B00E799AF /* KCShotDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C25441D7B865B00E799AF /* KCShotDataProvider.m */; };
+		0F1C25491D7B883B00E799AF /* KCAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C25481D7B883B00E799AF /* KCAPIClient.m */; };
 		0FD8901D1D78CCE40051BC46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8901C1D78CCE40051BC46 /* main.m */; };
-		0FD890201D78CCE40051BC46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8901F1D78CCE40051BC46 /* AppDelegate.m */; };
-		0FD890231D78CCE40051BC46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD890221D78CCE40051BC46 /* ViewController.m */; };
+		0FD890201D78CCE40051BC46 /* KCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD8901F1D78CCE40051BC46 /* KCAppDelegate.m */; };
+		0FD890231D78CCE40051BC46 /* KCShotsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD890221D78CCE40051BC46 /* KCShotsFeedViewController.m */; };
 		0FD890261D78CCE40051BC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD890241D78CCE40051BC46 /* Main.storyboard */; };
 		0FD890281D78CCE40051BC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD890271D78CCE40051BC46 /* Assets.xcassets */; };
 		0FD8902B1D78CCE40051BC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD890291D78CCE40051BC46 /* LaunchScreen.storyboard */; };
+		0FD890351D78E3710051BC46 /* KCShotsFeedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD890341D78E3710051BC46 /* KCShotsFeedCollectionViewCell.m */; };
+		0FD890391D78EF990051BC46 /* KCShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD890381D78EF990051BC46 /* KCShot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1C25431D7B865B00E799AF /* KCShotDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCShotDataProvider.h; sourceTree = "<group>"; };
+		0F1C25441D7B865B00E799AF /* KCShotDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCShotDataProvider.m; sourceTree = "<group>"; };
+		0F1C25471D7B883B00E799AF /* KCAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAPIClient.h; sourceTree = "<group>"; };
+		0F1C25481D7B883B00E799AF /* KCAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAPIClient.m; sourceTree = "<group>"; };
 		0FD890181D78CCE30051BC46 /* ShotsFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShotsFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD8901C1D78CCE40051BC46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0FD8901E1D78CCE40051BC46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0FD8901F1D78CCE40051BC46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0FD890211D78CCE40051BC46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0FD890221D78CCE40051BC46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FD8901E1D78CCE40051BC46 /* KCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCAppDelegate.h; sourceTree = "<group>"; };
+		0FD8901F1D78CCE40051BC46 /* KCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCAppDelegate.m; sourceTree = "<group>"; };
+		0FD890211D78CCE40051BC46 /* KCShotsFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCShotsFeedViewController.h; sourceTree = "<group>"; };
+		0FD890221D78CCE40051BC46 /* KCShotsFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KCShotsFeedViewController.m; sourceTree = "<group>"; };
 		0FD890251D78CCE40051BC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FD890271D78CCE40051BC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FD8902A1D78CCE40051BC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FD8902C1D78CCE40051BC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD890331D78E3710051BC46 /* KCShotsFeedCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCShotsFeedCollectionViewCell.h; sourceTree = "<group>"; };
+		0FD890341D78E3710051BC46 /* KCShotsFeedCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCShotsFeedCollectionViewCell.m; sourceTree = "<group>"; };
+		0FD890371D78EF990051BC46 /* KCShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCShot.h; sourceTree = "<group>"; };
+		0FD890381D78EF990051BC46 /* KCShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCShot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1C25461D7B87C100E799AF /* Networking and API */ = {
+			isa = PBXGroup;
+			children = (
+				0F1C25471D7B883B00E799AF /* KCAPIClient.h */,
+				0F1C25481D7B883B00E799AF /* KCAPIClient.m */,
+			);
+			name = "Networking and API";
+			sourceTree = "<group>";
+		};
+		0F1C254A1D7F41AA00E799AF /* View Conrollers */ = {
+			isa = PBXGroup;
+			children = (
+				0FD890211D78CCE40051BC46 /* KCShotsFeedViewController.h */,
+				0FD890221D78CCE40051BC46 /* KCShotsFeedViewController.m */,
+			);
+			name = "View Conrollers";
+			sourceTree = "<group>";
+		};
+		0F1C254B1D7F423D00E799AF /* Shots Data Provider */ = {
+			isa = PBXGroup;
+			children = (
+				0F1C25431D7B865B00E799AF /* KCShotDataProvider.h */,
+				0F1C25441D7B865B00E799AF /* KCShotDataProvider.m */,
+			);
+			name = "Shots Data Provider";
+			sourceTree = "<group>";
+		};
 		0FD8900F1D78CCE30051BC46 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +97,13 @@
 		0FD8901A1D78CCE40051BC46 /* ShotsFeed */ = {
 			isa = PBXGroup;
 			children = (
-				0FD8901E1D78CCE40051BC46 /* AppDelegate.h */,
-				0FD8901F1D78CCE40051BC46 /* AppDelegate.m */,
-				0FD890211D78CCE40051BC46 /* ViewController.h */,
-				0FD890221D78CCE40051BC46 /* ViewController.m */,
+				0F1C254B1D7F423D00E799AF /* Shots Data Provider */,
+				0F1C254A1D7F41AA00E799AF /* View Conrollers */,
+				0F1C25461D7B87C100E799AF /* Networking and API */,
+				0FD890361D78EF060051BC46 /* Models */,
+				0FD890321D78E2D80051BC46 /* Custom Cells */,
+				0FD8901E1D78CCE40051BC46 /* KCAppDelegate.h */,
+				0FD8901F1D78CCE40051BC46 /* KCAppDelegate.m */,
 				0FD890241D78CCE40051BC46 /* Main.storyboard */,
 				0FD890271D78CCE40051BC46 /* Assets.xcassets */,
 				0FD890291D78CCE40051BC46 /* LaunchScreen.storyboard */,
@@ -77,6 +119,24 @@
 				0FD8901C1D78CCE40051BC46 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FD890321D78E2D80051BC46 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0FD890331D78E3710051BC46 /* KCShotsFeedCollectionViewCell.h */,
+				0FD890341D78E3710051BC46 /* KCShotsFeedCollectionViewCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		0FD890361D78EF060051BC46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0FD890371D78EF990051BC46 /* KCShot.h */,
+				0FD890381D78EF990051BC46 /* KCShot.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD890231D78CCE40051BC46 /* ViewController.m in Sources */,
-				0FD890201D78CCE40051BC46 /* AppDelegate.m in Sources */,
+				0FD890391D78EF990051BC46 /* KCShot.m in Sources */,
+				0FD890351D78E3710051BC46 /* KCShotsFeedCollectionViewCell.m in Sources */,
+				0FD890231D78CCE40051BC46 /* KCShotsFeedViewController.m in Sources */,
+				0FD890201D78CCE40051BC46 /* KCAppDelegate.m in Sources */,
+				0F1C25451D7B865B00E799AF /* KCShotDataProvider.m in Sources */,
+				0F1C25491D7B883B00E799AF /* KCAPIClient.m in Sources */,
 				0FD8901D1D78CCE40051BC46 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +366,7 @@
 				0FD890311D78CCE40051BC46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

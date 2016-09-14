@@ -1,22 +1,22 @@
 //
-//  AppDelegate.m
+//  KCAppDelegate.m
 //  ShotsFeed
 //
-//  Created by Zook Gek on 9/1/16.
+//  Created by Zook Gek on 9/5/16.
 //  Copyright © 2016 Stan Sarber. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "KCAppDelegate.h"
 
-@interface AppDelegate ()
+@interface KCAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation KCAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
     return YES;
 }
 
